@@ -1,0 +1,282 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Your Favorite Actor-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    132
+Attributes:   29
+              Who is your favorite actor?
+              Your favorite actor's current physique
+              The hair of your favorite actor
+              Does your favorite actor know how to dance?
+              Complexion of your favorite actor
+              Facial hairstyle of your favorite actor in his last film
+              Number of films your favourite actor acted 
+              Best on - screen pair for your favourite actor
+              Best director for your favourite actor
+              Best music director of your favorite actor
+              Can your favorite actor sing ?
+              Is your favorite actor also a director ?
+              Does your favourite actor produce movies ?
+              Other languages your favorite actor has also acted in (not dubbed movies)
+              Does your favourite actor has a fan club officially ?
+              Does your favorite actor had a Cinema background before his entry ?
+              Does your favourite actor married a celebrity ?
+              Does your favourite actor write lyrics ?
+              Has your favorite actor received any National Award ?
+              Does your favourite actor give kiss to the fans ?
+              Is your favorite actor a child artist ?
+              Is your favorite actor fond of automobiles ?
+              Does your favourite actor stalk girls in his movies ?
+              Does your favourite actor indulge himself in making or acting artistic and noir films ?
+              Does your favorite actor has concerns about the society ?
+              Has your favorite actor overcome IT raids ?
+              Does your favourite actor shows versatile look changes in his movies ?
+              Does your favourite actor endured himself physically for a role ?
+              Does your favorite actor has any celebrities mentioned above as his relative(s)?  
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                                                                                     Class
+Attribute                                                                                            Surya            Vijay            Ajith      Rajinikanth Vijay Sethupathi           Vikram          Dhanush            Simbu            Kamal  Sivakarthikeyan
+                                                                                                    (0.13)           (0.32)           (0.24)           (0.08)           (0.05)           (0.04)           (0.07)           (0.03)           (0.04)           (0.01)
+====================================================================================================================================================================================================================================================================
+Your favorite actor's current physique
+  Fit                                                                                                   9.0             39.0             16.0              6.0              1.0              3.0              5.0              1.0              3.0              2.0
+  Muscular                                                                                             10.0              4.0              6.0              1.0              2.0              3.0              1.0              1.0              1.0              1.0
+  Chubby                                                                                                2.0              2.0             14.0              1.0              6.0              1.0              1.0              4.0              3.0              1.0
+  Lean                                                                                                  1.0              3.0              1.0              6.0              1.0              1.0              6.0              1.0              1.0              1.0
+  [total]                                                                                              22.0             48.0             37.0             14.0             10.0              8.0             13.0              7.0              8.0              5.0
+
+The hair of your favorite actor
+  Black                                                                                                19.0             36.0              1.0              3.0              6.0              4.0             10.0              4.0              4.0              2.0
+  Salt and Pepper                                                                                       1.0              8.0             32.0              2.0              2.0              2.0              1.0              1.0              2.0              1.0
+  No hair (bald head looks fine!)                                                                       1.0              3.0              1.0              8.0              1.0              1.0              1.0              1.0              1.0              1.0
+  Brown                                                                                                 1.0              1.0              3.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0
+  [total]                                                                                              22.0             48.0             37.0             14.0             10.0              8.0             13.0              7.0              8.0              5.0
+
+Does your favorite actor know how to dance?
+  I don't mind even if he doesn't dance                                                                 4.0              1.0             17.0              5.0              5.0              2.0              1.0              1.0              3.0              1.0
+  He dances well                                                                                        5.0             45.0              1.0              4.0              1.0              2.0              6.0              4.0              3.0              1.0
+  He dances moderately                                                                                 12.0              1.0             18.0              4.0              3.0              3.0              5.0              1.0              1.0              2.0
+  [total]                                                                                              21.0             47.0             36.0             13.0              9.0              7.0             12.0              6.0              7.0              4.0
+
+Complexion of your favorite actor
+  Fair                                                                                                 17.0             27.0             22.0              4.0              2.0              3.0              3.0              4.0              5.0              1.0
+  Wheatish                                                                                              3.0             18.0             13.0              2.0              3.0              3.0              5.0              1.0              1.0              2.0
+  Dark                                                                                                  1.0              2.0              1.0              7.0              4.0              1.0              4.0              1.0              1.0              1.0
+  [total]                                                                                              21.0             47.0             36.0             13.0              9.0              7.0             12.0              6.0              7.0              4.0
+
+Facial hairstyle of your favorite actor in his last film
+  Had multiple facial hairstyles                                                                        8.0             29.0             10.0              1.0              3.0              1.0              7.0              1.0              3.0              1.0
+  Bearded                                                                                               6.0             15.0             22.0              8.0              2.0              5.0              3.0              4.0              1.0              2.0
+  Clean shaved                                                                                          4.0              1.0              3.0              2.0              2.0              1.0              2.0              1.0              3.0              1.0
+  Had moustache                                                                                         4.0              3.0              2.0              3.0              3.0              1.0              1.0              1.0              1.0              1.0
+  [total]                                                                                              22.0             48.0             37.0             14.0             10.0              8.0             13.0              7.0              8.0              5.0
+
+Number of films your favourite actor acted 
+  > 25                                                                                                 12.0              1.0              1.0              1.0              4.0              3.0              7.0              1.0              1.0              1.0
+  > 100                                                                                                 3.0              4.0              8.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0
+  > 50                                                                                                  6.0             41.0             27.0              2.0              2.0              3.0              4.0              3.0              1.0              1.0
+  > 150                                                                                                 1.0              2.0              1.0              6.0              1.0              1.0              1.0              1.0              3.0              1.0
+  < 25                                                                                                  1.0              1.0              1.0              1.0              3.0              1.0              1.0              2.0              1.0              2.0
+  > 200                                                                                                 1.0              1.0              1.0              5.0              1.0              1.0              1.0              1.0              3.0              1.0
+  [total]                                                                                              24.0             50.0             39.0             16.0             12.0             10.0             15.0              9.0             10.0              7.0
+
+Best on - screen pair for your favourite actor
+  Samantha                                                                                             14.0             28.0              1.0              2.0              1.0              2.0              4.0              1.0              2.0              1.0
+  Nayanthara                                                                                            3.0              7.0             19.0              7.0              5.0              4.0              3.0              4.0              1.0              1.0
+  Trisha                                                                                                3.0             11.0             15.0              1.0              3.0              1.0              1.0              1.0              1.0              1.0
+  Srividhya                                                                                             1.0              1.0              1.0              2.0              1.0              1.0              1.0              1.0              1.0              1.0
+  Sneha                                                                                                 2.0              1.0              2.0              1.0              1.0              1.0              4.0              1.0              2.0              1.0
+  Sripriya                                                                                              1.0              1.0              1.0              2.0              1.0              1.0              1.0              1.0              3.0              1.0
+  Keerthy Suresh                                                                                        1.0              2.0              1.0              2.0              1.0              1.0              2.0              1.0              1.0              2.0
+  [total]                                                                                              25.0             51.0             40.0             17.0             13.0             11.0             16.0             10.0             11.0              8.0
+
+Best director for your favourite actor
+  Gautham Vasudev Menon                                                                                 9.0              1.0             16.0              1.0              1.0              2.0              1.0              3.0              1.0              1.0
+  Atlee                                                                                                 1.0             14.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0
+  A R Murugadoss                                                                                        5.0             28.0              2.0              3.0              1.0              2.0              1.0              1.0              1.0              1.0
+  K Balachandar                                                                                         1.0              1.0              2.0              7.0              1.0              1.0              1.0              1.0              2.0              1.0
+  C Premkumar                                                                                           1.0              1.0              1.0              1.0              2.0              1.0              1.0              1.0              1.0              1.0
+  Vetrimaaran                                                                                           2.0              5.0              1.0              1.0              4.0              1.0              8.0              1.0              1.0              1.0
+  Hari                                                                                                  4.0              1.0              1.0              1.0              1.0              3.0              1.0              1.0              1.0              1.0
+  Himself                                                                                               1.0              1.0              1.0              1.0              1.0              1.0              1.0              2.0              4.0              1.0
+  Selvaraghavan                                                                                         2.0              1.0              1.0              2.0              2.0              1.0              3.0              1.0              1.0              1.0
+  Siva                                                                                                  2.0              1.0             10.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0
+  Vishnuvardhan                                                                                         1.0              1.0              8.0              2.0              1.0              1.0              1.0              1.0              1.0              1.0
+  Ponram                                                                                                1.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0              2.0
+  Balaji Tharanitharan                                                                                  1.0              1.0              1.0              1.0              2.0              1.0              1.0              1.0              1.0              1.0
+  [total]                                                                                              31.0             57.0             46.0             23.0             19.0             17.0             22.0             16.0             17.0             14.0
+
+Best music director of your favorite actor
+  A R Rahman                                                                                            7.0             21.0              2.0              6.0              1.0              4.0              1.0              1.0              2.0              1.0
+  Aniruth                                                                                               2.0             16.0              2.0              1.0              2.0              1.0              6.0              2.0              1.0              2.0
+  Yuvan Shankar Raja                                                                                    5.0              5.0             29.0              4.0              4.0              1.0              4.0              3.0              1.0              1.0
+  Ilayaraja                                                                                             1.0              2.0              1.0              3.0              2.0              1.0              1.0              1.0              4.0              1.0
+  Harris Jayaraj                                                                                        6.0              4.0              4.0              1.0              1.0              2.0              1.0              1.0              1.0              1.0
+  G V Prakash Kumar                                                                                     2.0              2.0              1.0              1.0              1.0              1.0              2.0              1.0              1.0              1.0
+  D Imman                                                                                               2.0              1.0              1.0              1.0              2.0              1.0              1.0              1.0              1.0              1.0
+  [total]                                                                                              25.0             51.0             40.0             17.0             13.0             11.0             16.0             10.0             11.0              8.0
+
+Can your favorite actor sing ?
+  Yes                                                                                                  17.0             45.0              4.0              3.0              3.0              5.0             10.0              4.0              4.0              2.0
+  No                                                                                                    3.0              1.0             31.0              9.0              5.0              1.0              1.0              1.0              2.0              1.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Is your favorite actor also a director ?
+  No                                                                                                   17.0             45.0             33.0             10.0              7.0              5.0              5.0              1.0              1.0              2.0
+  Yes                                                                                                   3.0              1.0              2.0              2.0              1.0              1.0              6.0              4.0              5.0              1.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Does your favourite actor produce movies ?
+  Yes                                                                                                  17.0              9.0              2.0              6.0              4.0              2.0             10.0              3.0              4.0              2.0
+  No                                                                                                    3.0             37.0             33.0              6.0              4.0              4.0              1.0              2.0              2.0              1.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Other languages your favorite actor has also acted in (not dubbed movies)
+  Malayalam;Telugu;Kannada;Hindi                                                                        2.0              1.0              1.0              4.0              1.0              2.0              1.0              1.0              4.0              1.0
+  Telugu                                                                                                5.0              5.0              6.0              1.0              2.0              2.0              1.0              2.0              1.0              1.0
+  Malayalam                                                                                             1.0              6.0              1.0              1.0              2.0              1.0              1.0              1.0              1.0              1.0
+  Kannada                                                                                               1.0              1.0              3.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0
+  Kannada;Hindi                                                                                         1.0              1.0              2.0              2.0              1.0              1.0              1.0              1.0              1.0              1.0
+  Malayalam;Telugu;Hindi                                                                                1.0              1.0              1.0              2.0              2.0              1.0              1.0              1.0              1.0              1.0
+  Hindi                                                                                                 2.0              5.0              9.0              4.0              2.0              1.0              8.0              1.0              1.0              1.0
+  Telugu;Kannada;Hindi                                                                                  1.0              1.0              1.0              3.0              1.0              1.0              1.0              1.0              1.0              1.0
+  None of the above                                                                                    12.0             30.0             10.0              1.0              3.0              3.0              2.0              3.0              2.0              2.0
+  Telugu;Hindi                                                                                          1.0              1.0              7.0              1.0              1.0              1.0              2.0              1.0              1.0              1.0
+  Malayalam;Telugu;Kannada                                                                              2.0              1.0              2.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0
+  Kannada;None of the above                                                                             1.0              1.0              2.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0
+  Malayalam;Telugu                                                                                      1.0              2.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0
+  Malayalam;Telugu;Kannada;Hindi;None of the above                                                      1.0              2.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0              1.0
+  [total]                                                                                              32.0             58.0             47.0             24.0             20.0             18.0             23.0             17.0             18.0             15.0
+
+Does your favourite actor has a fan club officially ?
+  Yes                                                                                                  13.0             41.0             10.0             11.0              5.0              2.0              5.0              4.0              5.0              2.0
+  No                                                                                                    1.0              2.0             21.0              1.0              1.0              2.0              1.0              1.0              1.0              1.0
+  Maybe                                                                                                 7.0              4.0              5.0              1.0              3.0              3.0              6.0              1.0              1.0              1.0
+  [total]                                                                                              21.0             47.0             36.0             13.0              9.0              7.0             12.0              6.0              7.0              4.0
+
+Does your favorite actor had a Cinema background before his entry ?
+  Yes                                                                                                  18.0             42.0              1.0              2.0              1.0              2.0              8.0              4.0              2.0              1.0
+  No                                                                                                    2.0              2.0             34.0             10.0              7.0              1.0              2.0              1.0              3.0              2.0
+  Maybe                                                                                                 1.0              3.0              1.0              1.0              1.0              4.0              2.0              1.0              2.0              1.0
+  [total]                                                                                              21.0             47.0             36.0             13.0              9.0              7.0             12.0              6.0              7.0              4.0
+
+Does your favourite actor married a celebrity ?
+  Yes                                                                                                  19.0              6.0             34.0              6.0              1.0              2.0             10.0              1.0              4.0              1.0
+  No                                                                                                    1.0             40.0              1.0              6.0              7.0              4.0              1.0              4.0              2.0              2.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Does your favourite actor write lyrics ?
+  No                                                                                                   16.0             39.0             34.0             10.0              7.0              5.0              1.0              1.0              2.0              1.0
+  Yes                                                                                                   4.0              7.0              1.0              2.0              1.0              1.0             10.0              4.0              4.0              2.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Has your favorite actor received any National Award ?
+  No                                                                                                    5.0             24.0             13.0              2.0              6.0              3.0              1.0              4.0              1.0              2.0
+  Yes                                                                                                   5.0             12.0             14.0              9.0              1.0              2.0             10.0              1.0              5.0              1.0
+  Maybe                                                                                                11.0             11.0              9.0              2.0              2.0              2.0              1.0              1.0              1.0              1.0
+  [total]                                                                                              21.0             47.0             36.0             13.0              9.0              7.0             12.0              6.0              7.0              4.0
+
+Does your favourite actor give kiss to the fans ?
+  No                                                                                                   13.0             29.0             32.0              5.0              1.0              4.0             10.0              1.0              4.0              2.0
+  Yes                                                                                                   7.0             17.0              3.0              7.0              7.0              2.0              1.0              4.0              2.0              1.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Is your favorite actor a child artist ?
+  No                                                                                                   19.0             25.0             32.0             11.0              7.0              4.0              8.0              1.0              1.0              2.0
+  Yes                                                                                                   1.0             21.0              3.0              1.0              1.0              2.0              3.0              4.0              5.0              1.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Is your favorite actor fond of automobiles ?
+  No                                                                                                   13.0             32.0              3.0             10.0              7.0              5.0              9.0              4.0              5.0              2.0
+  Yes                                                                                                   7.0             14.0             32.0              2.0              1.0              1.0              2.0              1.0              1.0              1.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Does your favourite actor stalk girls in his movies ?
+  No                                                                                                   13.0             16.0             19.0              4.0              5.0              4.0              3.0              1.0              1.0              1.0
+  Maybe                                                                                                 5.0             24.0             11.0              7.0              3.0              1.0              6.0              2.0              2.0              1.0
+  Yes                                                                                                   3.0              7.0              6.0              2.0              1.0              2.0              3.0              3.0              4.0              2.0
+  [total]                                                                                              21.0             47.0             36.0             13.0              9.0              7.0             12.0              6.0              7.0              4.0
+
+Does your favourite actor indulge himself in making or acting artistic and noir films ?
+  Yes                                                                                                  14.0             18.0             17.0              6.0              6.0              5.0              5.0              1.0              5.0              1.0
+  No                                                                                                    6.0             28.0             18.0              6.0              2.0              1.0              6.0              4.0              1.0              2.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Does your favorite actor has concerns about the society ?
+  Yes                                                                                                  19.0             38.0             29.0             10.0              5.0              2.0              6.0              3.0              5.0              1.0
+  Maybe                                                                                                 1.0              8.0              4.0              2.0              3.0              4.0              4.0              2.0              1.0              2.0
+  No                                                                                                    1.0              1.0              3.0              1.0              1.0              1.0              2.0              1.0              1.0              1.0
+  [total]                                                                                              21.0             47.0             36.0             13.0              9.0              7.0             12.0              6.0              7.0              4.0
+
+Has your favorite actor overcome IT raids ?
+  Yes                                                                                                   5.0             44.0             11.0              4.0              1.0              1.0              1.0              1.0              2.0              1.0
+  No                                                                                                    9.0              2.0             18.0              4.0              6.0              5.0              6.0              4.0              3.0              2.0
+  Maybe                                                                                                 7.0              1.0              7.0              5.0              2.0              1.0              5.0              1.0              2.0              1.0
+  [total]                                                                                              21.0             47.0             36.0             13.0              9.0              7.0             12.0              6.0              7.0              4.0
+
+Does your favourite actor shows versatile look changes in his movies ?
+  Yes                                                                                                  17.0             32.0             26.0             11.0              6.0              5.0              9.0              4.0              5.0              1.0
+  No                                                                                                    3.0             14.0              9.0              1.0              2.0              1.0              2.0              1.0              1.0              2.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+Does your favourite actor endured himself physically for a role ?
+  Yes                                                                                                  16.0             20.0             30.0              8.0              3.0              5.0              5.0              3.0              5.0              1.0
+  No                                                                                                    1.0             11.0              1.0              3.0              2.0              1.0              3.0              2.0              1.0              2.0
+  Maybe                                                                                                 4.0             16.0              5.0              2.0              4.0              1.0              4.0              1.0              1.0              1.0
+  [total]                                                                                              21.0             47.0             36.0             13.0              9.0              7.0             12.0              6.0              7.0              4.0
+
+Does your favorite actor has any celebrities mentioned above as his relative(s)?  
+  No                                                                                                   13.0             34.0             31.0              2.0              7.0              4.0              1.0              1.0              4.0              2.0
+  Yes                                                                                                   7.0             12.0              4.0             10.0              1.0              2.0             10.0              4.0              2.0              1.0
+  [total]                                                                                              20.0             46.0             35.0             12.0              8.0              6.0             11.0              5.0              6.0              3.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         127               96.2121 %
+Incorrectly Classified Instances         5                3.7879 %
+Kappa statistic                          0.952 
+Mean absolute error                      0.0116
+Root mean squared error                  0.0795
+Relative absolute error                  7.2126 %
+Root relative squared error             28.1978 %
+Total Number of Instances              132     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.944    0.009    0.944      0.944    0.944      0.936    0.997     0.985     Surya
+                 1.000    0.023    0.957      1.000    0.978      0.967    0.998     0.995     Vijay
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ajith
+                 0.800    0.000    1.000      0.800    0.889      0.887    0.957     0.916     Rajinikanth
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Vijay Sethupathi
+                 0.750    0.000    1.000      0.750    0.857      0.863    1.000     1.000     Vikram
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Dhanush
+                 1.000    0.008    0.750      1.000    0.857      0.863    1.000     1.000     Simbu
+                 1.000    0.008    0.800      1.000    0.889      0.891    1.000     1.000     Kamal
+                 0.000    0.000    ?          0.000    ?          ?        0.992     0.500     Sivakarthikeyan
+Weighted Avg.    0.962    0.009    ?          0.962    ?          ?        0.996     0.986     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+ 17  1  0  0  0  0  0  0  0  0 |  a = Surya
+  0 44  0  0  0  0  0  0  0  0 |  b = Vijay
+  0  0 33  0  0  0  0  0  0  0 |  c = Ajith
+  0  1  0  8  0  0  0  0  1  0 |  d = Rajinikanth
+  0  0  0  0  6  0  0  0  0  0 |  e = Vijay Sethupathi
+  1  0  0  0  0  3  0  0  0  0 |  f = Vikram
+  0  0  0  0  0  0  9  0  0  0 |  g = Dhanush
+  0  0  0  0  0  0  0  3  0  0 |  h = Simbu
+  0  0  0  0  0  0  0  0  4  0 |  i = Kamal
+  0  0  0  0  0  0  0  1  0  0 |  j = Sivakarthikeyan
+
