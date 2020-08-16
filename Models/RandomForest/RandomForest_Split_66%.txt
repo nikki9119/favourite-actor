@@ -1,0 +1,91 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Your Favorite Actor-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    132
+Attributes:   29
+              Who is your favorite actor?
+              Your favorite actor's current physique
+              The hair of your favorite actor
+              Does your favorite actor know how to dance?
+              Complexion of your favorite actor
+              Facial hairstyle of your favorite actor in his last film
+              Number of films your favourite actor acted 
+              Best on - screen pair for your favourite actor
+              Best director for your favourite actor
+              Best music director of your favorite actor
+              Can your favorite actor sing ?
+              Is your favorite actor also a director ?
+              Does your favourite actor produce movies ?
+              Other languages your favorite actor has also acted in (not dubbed movies)
+              Does your favourite actor has a fan club officially ?
+              Does your favorite actor had a Cinema background before his entry ?
+              Does your favourite actor married a celebrity ?
+              Does your favourite actor write lyrics ?
+              Has your favorite actor received any National Award ?
+              Does your favourite actor give kiss to the fans ?
+              Is your favorite actor a child artist ?
+              Is your favorite actor fond of automobiles ?
+              Does your favourite actor stalk girls in his movies ?
+              Does your favourite actor indulge himself in making or acting artistic and noir films ?
+              Does your favorite actor has concerns about the society ?
+              Has your favorite actor overcome IT raids ?
+              Does your favourite actor shows versatile look changes in his movies ?
+              Does your favourite actor endured himself physically for a role ?
+              Does your favorite actor has any celebrities mentioned above as his relative(s)?  
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          40               88.8889 %
+Incorrectly Classified Instances         5               11.1111 %
+Kappa statistic                          0.8442
+Mean absolute error                      0.07  
+Root mean squared error                  0.1578
+Relative absolute error                 43.7968 %
+Root relative squared error             56.8818 %
+Total Number of Instances               45     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.026    0.833      0.833    0.833      0.808    0.983     0.911     Surya
+                 1.000    0.111    0.857      1.000    0.923      0.873    1.000     1.000     Vijay
+                 1.000    0.030    0.923      1.000    0.960      0.946    1.000     1.000     Ajith
+                 0.333    0.000    1.000      0.333    0.500      0.564    0.984     0.867     Rajinikanth
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Vijay Sethupathi
+                 0.000    0.000    ?          0.000    ?          ?        0.932     0.250     Vikram
+                 ?        0.000    ?          ?        ?          ?        ?         ?         Dhanush
+                 0.000    0.000    ?          0.000    ?          ?        1.000     1.000     Simbu
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kamal
+                 ?        0.000    ?          ?        ?          ?        ?         ?         Sivakarthikeyan
+Weighted Avg.    0.889    0.056    ?          0.889    ?          ?        0.995     0.963     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  5  1  0  0  0  0  0  0  0  0 |  a = Surya
+  0 18  0  0  0  0  0  0  0  0 |  b = Vijay
+  0  0 12  0  0  0  0  0  0  0 |  c = Ajith
+  0  1  1  1  0  0  0  0  0  0 |  d = Rajinikanth
+  0  0  0  0  2  0  0  0  0  0 |  e = Vijay Sethupathi
+  1  0  0  0  0  0  0  0  0  0 |  f = Vikram
+  0  0  0  0  0  0  0  0  0  0 |  g = Dhanush
+  0  1  0  0  0  0  0  0  0  0 |  h = Simbu
+  0  0  0  0  0  0  0  0  2  0 |  i = Kamal
+  0  0  0  0  0  0  0  0  0  0 |  j = Sivakarthikeyan
+
